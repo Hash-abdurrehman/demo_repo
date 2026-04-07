@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3 id="text">Hello!</h3>
+<button onclick="changeText()">Click</button>
+
+<script>
+function changeText() {
+  document.getElementById("text").innerText = "Text changed!";
+}
+</script>
+
+</body>
+</html>
